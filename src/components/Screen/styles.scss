@@ -1,0 +1,112 @@
+$myBorder: 5px solid gray;
+
+.screen {
+  width: 270px;
+  height: 110px;
+  margin-top: 10px;
+  background-color: rgba(156, 208, 145, 0.97);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  border: $myBorder;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+// $myBorder: 1px solid black;
+
+// %errorStyle {
+//   color: red;
+//   font-size: 58%;
+//   display: block;
+// }
+
+// %display-and-Justify {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .addproduct {
+//   max-width: 1200px;
+//   margin: auto;
+//   padding: 30px 30px;
+
+//   .header {
+//     @extend %display-and-Justify;
+//     align-items: center;
+//     border-bottom: $myBorder;
+//     padding-bottom: 10px;
+
+//     button {
+//       box-shadow: 2px 2px black;
+//     }
+
+//     .cancel_button {
+//       margin-left: 10px;
+//     }
+//   }
+
+//   .footer {
+//     border-top: $myBorder;
+//     display: flex;
+//     justify-content: center;
+//     position: fixed;
+//     right: 30px;
+//     left: 30px;
+//     bottom: 30px;
+//   }
+
+//   .form_container {
+//     margin-top: 30px;
+
+//     label {
+//       width: 250px;
+//       display: grid;
+//       grid-template-columns: 1fr 3fr;
+//       margin-top: 10px;
+
+
+//     }
+
+//     .error {
+//       @extend %errorStyle;
+//     }
+
+//     .product_form {
+//       margin-top: 30px;
+//       border: $myBorder;
+//       padding: 15px;
+//       height: fit-content;
+//       width: fit-content;
+
+//       p {
+//         margin-top: 10px;
+//         font-size: 13px;
+//       }
+
+//       .error {
+//         @extend %errorStyle;
+//         margin-top: auto;
+//       }
+
+//       label {
+//         @extend %display-and-Justify;
+//         width: 265px;
+//       }
+
+//     }
+
+//     .select_label {
+//       margin-top: 50px;
+//       display: block;
+
+//       select {
+//         margin-left: 20px;
+//       }
+//     }
+//   }
+// }
